@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<cv>
+		<personal_details>
+				<name>Peter Gray</name>
+				<address>
+					<street>19 Templer Avenue</street>
+					<city>Chadwell St Mary</city>
+					<postcode>RM164ER</postcode>
+				</address>
+				<contactDetails>
+					<telephone>07837090173</telephone>
+					<email>pgray@spartaglobal.com</email>
+					<linkedIn> scr=http://     </linkedIn>
+				</contactDetails>
+				    <statement>With a deep interest in technology, combined with an ability to communicate complicated ideas succinctly, he is seeking to bring these varying attributes to a role within the field of software analysis. 
+                     Peter has a background in technical support and customer service as well as keen analytical skills gained from a degree in English Literature and roles as a technology journalist. 
+                     His background in customer service means that he looks at problems from an end users perspective, a talent that he uses to inform his testing.				
+				</statement>
+		</personal_details>
+		<jobs>
+			<job id="1">
+				<role>Test Analyst</role>
+				<company>Sparta Global</company>
+				<start_date>02/2015</start_date>
+				
+				<description>Currently training to become a full Test Analyst. Peter is a ISTQB certified Foundation level tester at Sparta Global.
+				</description>
+			</job>
+			<job id="2">
+				<role>Technology Journalist</role>
+				<company>Daily News Service</company>
+				<start_date>09/2014</start_date>
+				<end_date>02/2015</end_date>
+				<description>As a technology journalist I sourced and wrote about all aspects of technology including; business analysis, event coverage, daily news coverage, reviews of products. All adhering to house style and the daily needs of the technology section.</description>
+			</job>
+			<job id="3">
+				<role> Knowhow Manager</role>
+				<company> Dixons Retail</role>
+				<start_date>11/2012</start_date>
+				<end_date>09/2014</end_date>
+				<description>As Knowhow Manager I was tasked with the day to day running of the Knowhow department. I was also responsible for technical support tasks such as laptop maintenance, software instillation and updates. 
+                  As part of my role I ran tutorial sessions for users new to technology. Classes included; Windows 8, General Laptop use, basic camera use, Android and iOS use. 
+                  Administration management was also a key task.</description>
+			</job>
+		<Further_education>
+			<education id="1">
+				<course_title>English Literature and Creative Writing</course_title>
+				<university>Kingston University</university>
+				<start_date>09/2005</start_date>
+				<end_date>09/2009</end_date>
+			</education id="1">
+		</Further_education>	
+	</cv>
