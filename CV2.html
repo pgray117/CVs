@@ -1,16 +1,21 @@
-<!<!doctype html>
+<!doctype html>
 	<html>
 	    <head>
 		         <title>Peter Gray CV</title>
+					<link rel="stylesheet" href="CV CSS.css">
 	    </head>
 	<body>
-	     <h1>Peter Gray CV</h1>
+						<div id="parent-info-div">
+						<h1>Peter Gray CV</h1>
 		 
-		 <img src= "Sparta1.jpg" alt= "Sparta1" width= "390" height="380"
+						<img src= "Sparta12.jpg" alt= "Sparta12" width= "440" height="380"
+						
 				<p>
-					<h2>Personal Details</h2>
+				<article>
+									<div class="personal-details">
+									<h2>Personal Details</h2>
 				</p>
-		     
+										<strong><p> Peter Gray</p></strong>
 										<address>
 											<p>19 Templer Avenue</p>
 											<p>Chadwell St Mary</P>
@@ -18,17 +23,23 @@
 											<p><a href="mailto:pgray@spartaglobal.com?Subject=pgray@spartaglobal.com" target="_top">pgray@spartaglobal.com</a></P>
 											<p>07837090173</p>
 										</address>
-											<a href="https://www.linkedin.com/hp/?dnr=D2APWaQImQ3keTnJJ2t8WaQx3Z3uYTjBEPaE">Linkdin</a>.<br>
+											<a href="https://www.linkedin.com/hp/?dnr=D2APWaQImQ3keTnJJ2t8WaQx3Z3uYTjBEPaE"target="blank">Linkdin</a><br>
+				</article>			</div>
 						<p>
-							<h2>Statement</h2>
-							With a deep interest in technology, combined with an ability to communicate complicated ideas succinctly, he is seeking to bring these varying attributes to a role within the field of software analysis.
-							Peter has a background in technical support and customer service as well as keen analytical skills gained from a degree in English Literature and roles as a technology journalist. 
-							His background in customer service means that he looks at problems from an end users perspective, a talent that he uses to inform his testing.
+								<div class="statement-box"><h2>Statement</h2>
+								I have a deep interest in technology, combined with an ability to communicate complicated ideas succinctly, I am seeking to bring these varying attributes to a role within the field of software analysis.
+								I also have a background in technical support and customer service as well as keen analytical skills gained from a degree in English Literature and roles as a technology journalist. 
+								My background in customer service means that I look at problems from an end users perspective, a talent that I use to inform my testing approach.
+								</div>
+						</div>
+					
 						</p>
+						
+						<div class="statement-box">
 					  <h2>Jobs</h2>
 					  <ul>
 					     <strong><li>Test Analyst</li></strong>
-					    <li><a href="http://spartaglobal.com/">Sparta Global</a></li>
+					    <li><a href="http://spartaglobal.com/"target="blank">Sparta Global</a></li>
 						<li>02/2015</li>
 					  </ul>
 						<p>
@@ -39,18 +50,23 @@
 							<p>ISTQB</p>
 							<p>Notepad++ test practical</p>
 							<p>SQL and Database Building</p>
-							<p>JSON, XML, HTML</p>
-							
+							<p>JSON, XML, HTML, CSS</p>
+							</div>
 							<p>
+							<div class="statement-box">
 								<ul>
 									<strong><li>Technology Journalist</li></strong>
 									<li>Daily News Service</li>
 									<li>09/2014-02/2015</li>
 								</ul>
-							</p>
-				       <p>
-							As a technology journalist I sourced and wrote about all aspects of technology including; business analysis, event coverage, daily news coverage, reviews of products. All adhering to house style and the daily needs of the technology section.
-				       </p>
+								</p>
+								<p>
+								As a technology journalist I sourced and wrote about all aspects of technology including; business analysis, event coverage, daily news coverage, reviews of products. All adhering to house style and the daily needs of the technology section.
+								</p>
+							</div>
+						<p>
+						<div class="statement-box">
+						
 						<ul>
 							<strong><li> Knowhow Manager</li></strong>
 							<li> Dixons Retail</li>
@@ -60,17 +76,36 @@
 							As Knowhow Manager I was tasked with the day to day running of the Knowhow department. I was also responsible for technical support tasks such as laptop maintenance, software instillation and updates. 
 							As part of my role I ran tutorial sessions for users new to technology. Classes included; Windows 8, General Laptop use, basic camera use, Android and iOS use. 
 							Administration management was also a key task.
+							</div>
+							</p>
 							<p>
-							<h3>Further Education</h3>
-						<ul>
-							<li>English Literature and Creative Writing</li>
-							<li>Kingston University</li>
-							<li>09/2005</li>
-							<li>09/2009</li>
-						</ul>	
+							
+								<div class="statement-box">	
+									<h3>Further Education</h3>
+									<ul>
+									<li>English Literature and Creative Writing</li>
+									<li>Kingston University</li>
+									<li>From: 09/2005</li>
+									<li>Till: 09/2009</li>
+									My degree specifically focused on developing analytical skills as well as fostering critical attention to detail
+									</ul>	
+								</div>
 							</p> 
-			
-	 
+									<font size="2"<p> If you would like to contact Peter for any further information you can send him a message using the box below.</p></font>
+									<form action="http://lacedeamon.spartaglobal.com/contactform" method="post" >
+										<label for="name"> Name:</label><br>
+										<input type="text" name="name" id="name">	
+										<br><label for="email"> Email:</label><br>
+										<input type="email" name="email" id="email"><br>
+										<br><textarea cols="40" rows="10" name="message"
+										id="textarea" placeholder="Enter message here."></textarea>
+									
+										<input type="hidden" name="addressee" id="addressee" value="Peter Gray">
+										<br><input type="submit" value="submit" id="submit"/>
+									</form>
+								<footer>
+									<img src= "Spartalogo.gif" alt= "Spartalogo" width= "300" height= "50"
+								</footer>
 		</body>	 
 	
 	</html>

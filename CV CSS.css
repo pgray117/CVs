@@ -1,0 +1,46 @@
+body {
+background-color: #3A6476;
+ font-family: 'Source Sans Pro', sans-serif;
+ color: white;
+}
+#parent-info-div {
+text-align: center;
+}
+
+h1 { background-color: #DCDCDC;}
+	
+	img {
+    max-width: 100%;
+    height: auto;
+	padding: 1px;
+	border: 1px solid #000000
+	}
+	
+	
+	 div.personal-details{
+	 padding: 10px 40px;
+	 background-color: #808080;
+	 border: 3px solid #778899; 
+	 border-radius: 25px;
+	 }
+	
+	div.statement-box{
+	max-width: 100%;
+    height: auto;
+	background-color: #F5F5DC;
+	border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #778899;
+    max-width: 100%;
+    border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	
+	
+	}
+	
+	textarea { max-width: 100%;
+	height: auto;
+	}
+	
+	 {}
+	

@@ -1,0 +1,26 @@
+		p {color: red;
+		background-color: black;
+		font-size: 19px;
+		}
+			
+			body {font: italic 75%/125% "Comic Sans MS", cursive;
+			background-color: purple;}
+			
+			<link rel="stylesheet" href="Block test.css">
+			
+			img.smallscreen { display: none; }
+        @media only screen and (max-width: 320px) {
+            img { 
+                display: none; 
+            }
+            img.smallscreen { 
+                display: inline; 
+            }
+        }
+		
+		div.info-box {background-color: red;
+	border: 2px solid #0033CC;
+	padding 0 10px;
+	font-size: 12px;
+	float: right;
+	}
